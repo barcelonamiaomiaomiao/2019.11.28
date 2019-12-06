@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding: 0;}
+        .orign{width:400px;height:400px;border: 1px solid #000;}
+        .box1{width:200px;height:200px;background: #f00;float: left;}
+        .box2{width:200px;height:200px;background:#0f0;}
+        .s1{float: left;width:200px;height:200px;border: 1px solid #000;}
+        .s2{float: left;width:300px;}
+    </style>
+</head>
+<body>
+      <!-- 浮动使元素脱离文档流 ,其下方的元素会上移 -->
+    <div class="orign">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <!-- 文字环绕:浮动使得下方的元素上移,但是里面的内容会围绕浮动元素 -->
+    <div class="orign">
+        <div class="box1"></div>
+        <p>阿刁发无大无大大无大无大无阿达瓦多阿瓦达无</p>
+    </div>
+    <!--浮动元素一般默认为块元素,行内元素浮动之后会变成块元素可设置宽高  -->
+    <div class="orign">
+        <span class="s1">阿达瓦无多哇</span>
+    </div>
+    <!-- 当一个块元素浮动以后,其宽带会被内容撑开,我们通常会给其设定宽 -->
+    <div class="orign">
+        <div class="s2">达瓦大无大哇</div>
+    </div>
+    <!--尽量使用左浮动,一浮动都浮动-->
+</body>
+</html>

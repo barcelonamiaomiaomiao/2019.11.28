@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        ul{list-style: none;}
+        ol{list-style: none;}
+        a{text-decoration: none;}
+        .header{overflow: hidden;background:#333;}
+        .layout{width:1200px;margin:0 auto;}
+        .header .logo{background: url(logo.png) no-repeat center;float: left;width:141px;height:70px;}
+        .header .nav{float: right;text-align: center;}
+        .header .nav li{float: left;}
+        .nav li a{display: block;height:70px;line-height: 70px;color: white;padding:0 25px;}
+    
+        .main .banner{background: url(https://bufanui-v2.oss-cn-beijing.aliyuncs.com/web/banner_v3_1.jpg) no-repeat center;height:775px;}
+        .main .common{text-align: center;margin:50px 0;}
+        .common .p1{padding: 5px 0 10px;color: gray;}
+        .common p{color: gray;}
+        .main  ul{overflow: hidden;}
+        .main  ul li{float: left;width:586px;height:190px;background-size: cover;margin-right:28px;margin-bottom:26px;}
+        .main .l2{margin-right: 0;}
+        .main  span{float:left; width:280px;margin-right:26px ;height: 100%;}
+        .main  .m0{margin-right: 0;}
+        .main  .m0{margin-right: 0;}
+        .main .learn{text-align: center;}
+        .main .learn a{display:inline-block;margin-right: 32px;width:118px;height:35px;color:#333;line-height: 35px;border-radius: 17.5px;border: 1px solid #333;}
+        .main .learn a:hover{color: #00f;border-color: #00f;}
+        .programe{overflow: hidden;margin-top:50px;}
+        .programe .pr-ol .pr-ol-li{float: left;width:278px;margin-right:26.6px;position: relative;}
+        .pr-ol-li .introduce{background:#37a9f9;border-radius:6px 6px 0 0;color: white;overflow: hidden;}
+        .pr-ol-li .introduce .intr-p1{font-size: 20px;margin-left:24px;margin-top:20px;}
+        .pr-ol-li .introduce .intr-p2{font-size: 12px;margin-left:24px;margin-bottom: 20px;;}
+        .pr-ol-li .introduce .intr-p3{position: absolute;left:205px;top:48px;font-size: 50px;}
+        .pr-ol-li .classify{margin-top:39px;margin-left:24px;}
+        .pr-ol-li .classify li{margin-bottom: 28px;}
+        .pr-ol-li .classify li h4{font-size: 16px;color:#333;}
+        .pr-ol-li .classify li p{color:grey;font-size: 14px;}
+        .pr-ol-li .classify li .icon{position: absolute;background: url(hot.jpg) no-repeat center;left:63px;top:-16px;color: white;width:78px;height:40px;font-size: 14px;line-height: 28px;text-align: center;}
+        .main .work{overflow: hidden;}
+        .main .work li{width:380px;float: left;margin-right: 30px;margin-bottom: 30px;}
+        .main .work .salary{width:100%;height:43px;line-height: 43px;color: grey;}
+        .main .work .salary a{margin:0 16px 0 19px;}
+
+
+        .footer{background: #333;text-align: center;overflow: hidden; color: grey;font-size: 14px;}
+        .footer .p1{margin:20px 0 10px;}
+        .footer .p2{margin-bottom: 20px;}
+
+        .share{position: fixed;width:38px;right:0;bottom:100px;}
+        .share ul li a{display:block;width:38px;height:38px;}
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="layout">
+            <a href="" class="logo"></a>
+            <ul class="nav">
+                <li><a href="">首页</a></li>
+                <li><a href="">资讯教程</a></li>
+                <li><a href="">学员佳作</a></li>
+                <li><a href="">设计规范</a></li>
+                <li><a href="">设计导航</a></li>
+                <li><a href="">商务合作</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="banner"></div>
+        <div class="layout">
+            <div class="common">
+                <h3>为什么选择不凡</h3>
+                <p class="p1">choice</p>
+                <p>如果你刚毕业对未来迷茫，如果你不满现状想要转行 </p>
+                <p>如果你热爱设计与开发，来不凡给你答案</p>
+            </div>       
+            <ul>
+                <li style="background: url(family_2.jpg) no-repeat center;"></li>
+                <li class="l2">
+                    <span style="background: url(real.jpg) no-repeat center;"></span>
+                    <span style="background: url(quality.jpg) no-repeat center;" class="m0"></span>
+                </li>
+                <li class="l3">
+                    <span style="background: url(real.jpg) no-repeat center"></span>
+                    <span style="background: url(quality.jpg) no-repeat center;" class="m0"></span>
+                </li>
+                <li style="background: url(family_2.jpg) no-repeat center;" class="m0"></li>
+            </ul>    
+            <div class="common">
+                <h3>我能学到什么</h3>
+                <p class="p1">Details</p>
+                <p>先进完备的课程体系，从0到1，助你从小白到大牛 </p>
+            </div>
+            <div class="learn">
+                <a href="">UI设计</a>
+                <a href="" style="margin-right:0">H5前端</a>
+            </div>
+            <div class="programe">
+                <ol class="pr-ol">
+                    <li class="pr-ol-li">
+                        <div class="introduce">
+                            <p class="intr-p1">基础学习</p>
+                            <p class="intr-p2">Basic learn</p>
+                            <p class="intr-p3">01</p>
+                        </div>
+                        <ol class="classify">
+                            <li>
+                                <h4>基础设计软件</h4>
+                                <p>掌握基础软件操作</p>
+                            </li>
+                            <li>
+                                <h4>基础美术原理</h4>
+                                <p>学习版式设计/配色原理/字体设计</p>
+                            </li>
+                            <li>
+                                <h4>图标设计</h4>
+                                <p>鼠绘写实图标/MBE风格图标绘制</p>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="pr-ol-li">
+                        <div class="introduce">
+                            <p class="intr-p1">基础学习</p>
+                            <p class="intr-p2">Basic learn</p>
+                            <p class="intr-p3">01</p>
+                        </div>
+                        <ol class="classify">
+                            <li>
+                                <h4>基础设计软件</h4>
+                                <p>掌握基础软件操作</p>
+                            </li>
+                            <li>
+                                <h4>基础美术原理</h4>
+                                <p>学习版式设计/配色原理/字体设计</p>
+                            </li>
+                            <li style="position: relative;">
+                                <h4>图标设计</h4>
+                                <p>鼠绘写实图标/MBE风格图标绘制</p>
+                                <span class="icon">设计+实现</span>
+                            </li>
+                        </ol>
+                    </li>
+                    <li class="pr-ol-li">
+                        <div class="introduce">
+                            <p class="intr-p1">基础学习</p>
+                            <p class="intr-p2">Basic learn</p>
+                            <p class="intr-p3">01</p>
+                        </div>
+                        <ol class="classify">
+                            <li>
+                                <h4>基础设计软件</h4>
+                                <p>掌握基础软件操作</p>
+                            </li>
+                            <li>
+                                <h4>基础美术原理</h4>
+                                <p>学习版式设计/配色原理/字体设计</p>
+                            </li>
+                            <li>
+                                <h4>图标设计</h4>
+                                <p>鼠绘写实图标/MBE风格图标绘制</p>
+                            </li>
+                        </ol>
+                    </li>   
+                    <li class="pr-ol-li" style="margin-right: 0;">
+                        <div class="introduce">
+                            <p class="intr-p1">基础学习</p>
+                            <p class="intr-p2">Basic learn</p>
+                            <p class="intr-p3">01</p>
+                        </div>
+                        <ol class="classify">
+                            <li>
+                                <h4>基础设计软件</h4>
+                                <p>掌握基础软件操作</p>
+                            </li>
+                            <li>
+                                <h4>基础美术原理</h4>
+                                <p>学习版式设计/配色原理/字体设计</p>
+                            </li>
+                            <li>
+                                <h4>图标设计</h4>
+                                <p>鼠绘写实图标/MBE风格图标绘制</p>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+            <div class="common">
+                <h3>学员就业</h3>
+                <p class="p1">Work</p>
+                <p>空谈再多，不如直接看就业，就业好才是真的好 </p>
+            </div>
+            <ol class="work">
+                <li>
+                    <img src="https://www.bufanui.com/pages/front/static/img_v3/work_1.jpg" alt="">
+                    <div class="salary">
+                        <a>学员:李*月</a>
+                        <a>入职公司:去哪儿网</a>
+                        <a">薪资:14K</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://www.bufanui.com/pages/front/static/img_v3/work_1.jpg" alt="">
+                    <div class="salary">
+                        <a>学员:李*月</a>
+                        <a>入职公司:去哪儿网</a>
+                        <a">薪资:14K</a>
+                    </div>
+                </li>
+                <li style="margin-right: 0;">
+                    <img src="https://www.bufanui.com/pages/front/static/img_v3/work_1.jpg" alt="">
+                    <div class="salary">
+                        <a>学员:李*月</a>
+                        <a>入职公司:去哪儿网</a>
+                        <a">薪:14K</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://www.bufanui.com/pages/front/static/img_v3/work_1.jpg" alt="">
+                    <div class="salary">
+                        <a>学员:李*月</a>
+                        <a>入职公司:去哪儿网</a>
+                        <a">薪:14K</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://www.bufanui.com/pages/front/static/img_v3/work_1.jpg" alt="">
+                    <div class="salary">
+                        <a>学员:李*月</a>
+                        <a>入职公司:去哪儿网</a>
+                        <a">薪:14K</a>
+                    </div>
+                </li>
+                <li style="margin-right: 0;">
+                    <img src="https://www.bufanui.com/pages/front/static/img_v3/work_1.jpg" alt="">
+                    <div class="salary">
+                        <a>学员:李*月</a>
+                        <a>入职公司:去哪儿网</a>
+                        <a">薪:14K</a>
+                    </div>
+                </li>
+            </ol>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <div class="layout">
+            <p class="p1">设计交流和意见反馈 - QQ群: 650122402</p>
+            <p class="p2">Copyright© 2017 不凡学院 All Right Reserved   豫ICP备 17015347号</p>
+        </div>
+    </div>
+    <div class="share">
+        <ul>
+            <li><a href="" style="background: url(qq.png) no-repeat center;"></a></li>
+            <li><a href="" style="background: url(wx.png) no-repeat center;"></a></li>
+            <li><a href="" style="background: url(goup.png) no-repeat center;"></a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding: 0;}
+        .orign{width:400px;border: 1px solid #000;overflow: hidden;}
+        .box1{width:100px;height:100px;background:#f00;float: left;}
+        .box2{width:100px;height:100px;background:#00f;float: right;}
+    
+    </style>
+</head>
+<body>
+    <!--元素浮动,子元素无法撑开父元素-->
+    <div class="orign">
+        <div class="box1"></div>
+        <div class="box2"></div>
+    </div>
+    <!-- 1.通过overflow:hidden来清除浮动 -->
+    <!--2.浮动元素后添加个块元素然后设定该元素clear:both;-->
+    <!--3.给父元素设定高度-->
+</body>
+</html>

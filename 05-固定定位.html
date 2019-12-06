@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        .box{width:400px;height:400px;border:1px solid #000}
+        .box1{width:100px;height:100px;background: #f00;position: fixed;right: 0;bottom: 100px;}
+        /* 固定定位相对于浏览器定位,它的的参照物是浏览器窗口 */
+        /* 固定定位,元素脱离文档流,元素特性发生改变宽度由内容撑开,可使行内元素转化为块元素设置宽高 */
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="box1"></div>
+    </div>
+</body>
+</html>
